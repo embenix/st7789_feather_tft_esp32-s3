@@ -1,6 +1,8 @@
 # ST7789 Feather TFT ESP32-S3
 ST7789 Driver for esp-idf
 
+<div align="center"><img src="./doc/adafruit_products_Adafruit_ESP32-S3_TFT_Feather_Pinout.png"/></div>
+
 # Credits to nopnop2002
 The original code can be found here:
 https://github.com/nopnop2002/esp-idf-st7789
