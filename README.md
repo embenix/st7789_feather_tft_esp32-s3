@@ -1,5 +1,9 @@
-# esp-idf-st7789
+# ST7789 Feather TFT ESP32-S3
 ST7789 Driver for esp-idf
+
+# Credits to nopnop2002
+The original code can be found here:
+https://github.com/nopnop2002/esp-idf-st7789
 
 The demo video by Dmitry Andreev.   
 https://www.youtube.com/watch?v=aOyaK0pUiPk&t
