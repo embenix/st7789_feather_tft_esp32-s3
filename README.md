@@ -1,5 +1,5 @@
 # ST7789 Feather TFT ESP32-S3
-ST7789 Driver for esp-idf
+ST7789 Driver for esp-idf. The default configuration is used for TFT Feather ESP32-S3 board from Adafruit.
 
 <div align="center"><img src="./doc/adafruit_products_Adafruit_ESP32-S3_TFT_Feather_Pinout.png"/></div>
 
@@ -17,8 +17,8 @@ This is because this version supports ESP32-C3.
 # Installation
 
 ```Shell
-git clone https://github.com/nopnop2002/esp-idf-st7789
-cd esp-idf-st7789/
+git clone https://github.com/embenix/st7789_feather_tft_esp32-s3.git
+cd st7789_feather_tft_esp32-s3/
 idf.py set-target {esp32/esp32s2/esp32s3/esp32c3}
 idf.py menuconfig
 idf.py flash
@@ -235,13 +235,5 @@ When using this module at the same time as SDSPI or other SPI device using SPI2_
 When you don't use SDSPI, both SPI2_HOST and SPI3_HOST will work.   
 Previously it was called HSPI_HOST / VSPI_HOST, but now it is called SPI2_HOST / SPI3_HOST.   
 
-# External input module   
-
-You can use these if you need some input.   
-- MPR121 Capacitive Touch switch   
-https://github.com/nopnop2002/esp-idf-mpr121
-
-- TTP229 Capacitive Touch switch   
-https://github.com/nopnop2002/esp-idf-ttp229
 
 
